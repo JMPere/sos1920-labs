@@ -1,0 +1,45 @@
+    1  cd /workspace/sos1920-labs; clear
+    2  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    3  cd /workspace/sos1920-labs; clear
+    4  echo "# sos1920-labs"
+    5  echo "# sos1920-labs" >> README.md
+    6  echo "# sos1920-labs" >> README2.md
+    7  git add README3.md
+    8  git add README.md
+    9  git ini
+   10  git init
+   11  git add README.md
+   12  git commit -m "first commit"
+   13  git config --global user.email "j_manuel1997@hotmail.com"
+   14  git config --global user.name "JMPere"
+   15  git commit -m "first commit"
+   16  git remote add origin https://github.com/JMPere/sos1920-labs.git
+   17  git push -u origin master
+   18  ls
+   19  git checkout -b l04
+   20  ls
+   21  cat README.md
+   22  git commit -m "update md"
+   23  git add .
+   24  git commit -m "update md"
+   25  git push
+   26  git push -u origin l04
+   27  git checkout master
+   28  git checkout l04
+   29  ls
+   30  node -v
+   31  npm -v
+   32  npm init 
+   33  ls
+   34  touch index.js
+   35  node index.js
+   36  npm start
+   37  npm install cool-ascii-faces
+   38  npm install cool-ascii-faces --save
+   39  nmp start
+   40  npm start
+   41  git init
+   42  git commit -m "create gitignore"
+   43  npm install express --save
+   44  npm start
+   45  history > history.txt
