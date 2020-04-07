@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/JMPere/sos1920-labs#readme",
   "dependencies": {
-    "cool-ascii-faces": "^1.3.4"
+    "body-parser": "^1.19.0",
+    "cool-ascii-faces": "^1.3.4",
+    "express": "^4.17.1"
   }
 }
