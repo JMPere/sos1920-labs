@@ -4,6 +4,8 @@ const bodyParser=require("body-parser");
 
 var app = express();
 
+var port = process.env.PORT || 80;
+
 app.use(bodyParser.json());
 
 app.use("/", express.static("./public"));
@@ -87,7 +89,7 @@ app.delete(BASE_API_URL+"/contacts/:name", (req, res)=>{
 })*/
 
 
-app.listen(80, () =>{
+app.listen(port, () =>{
 	console.log("Server ready");
 });
 
